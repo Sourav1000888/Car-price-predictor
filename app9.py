@@ -31,7 +31,7 @@ if st.sidebar.button("New Prediction"):
 
 # Slider filter
 st.sidebar.header("Filters")
-currency = st.sidebar.selectbox("Currency", ["INR", "USD"])  # Optional
+currency = st.sidebar.selectbox("Currency", ["INR", "USD"])  # Optionals
 
 
 # Main Content with Tabs
